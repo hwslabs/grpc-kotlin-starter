@@ -11,11 +11,11 @@ dependencies {
 tasks.register<JavaExec>("BarServer") {
     dependsOn("classes")
     classpath = sourceSets["main"].runtimeClasspath
-    main = "com.hypto.hws.services.starter.BarServerKt"
+    mainClass.set("com.hypto.hws.services.starter.BarServerKt")
 }
 
 val barServerStartScripts = tasks.register<CreateStartScripts>("barServerStartScripts") {
-    mainClassName = "com.hypto.hws.services.starter.BarServerKt"
+    mainClass.set("com.hypto.hws.services.starter.BarServerKt")
     applicationName = "bar-server"
     outputDir = tasks.named<CreateStartScripts>("startScripts").get().outputDir
     classpath = tasks.named<CreateStartScripts>("startScripts").get().classpath

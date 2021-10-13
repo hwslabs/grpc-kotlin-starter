@@ -5,7 +5,7 @@ include("protos", "stub", "client", "server")
 pluginManagement {
     repositories {
         gradlePluginPortal()
-        jcenter()
+        mavenCentral()
         google()
     }
 }
