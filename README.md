@@ -1,8 +1,6 @@
 # gRPC Kotlin starter
 
-Hypto                  |gRPC                   |Kotlin
-:---------------------:|:---------------------:|:---------------------:|
-![](logo/Hypto.png)    |![](logo/gRPC.png)     |![](logo/Kotlin.png)
+![](logo/hypto_grpc_kotlin.png)
 
 ## Overview
 
