@@ -68,6 +68,13 @@ The starter sources are organized into the following top-level folders:
   ./gradlew :server:BarServer
   ```
 
+  If you wish to start the server on a docker container (assuming you have docker installed on your machine)
+  ```sh
+  docker-compose up
+  ```
+
+  This will start the server and open up the 50051 port for connections
+
   In another console, run the client which will make requests to the server:
 
   ```sh
